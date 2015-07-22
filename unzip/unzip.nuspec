@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>unzip</id>
+    <title>Info-ZIP</title>
+    <version>6.0</version>
+    <authors>Info-Zip</authors>
+    <owners>Jake Petroules</owners>
+    <summary>list, test and extract compressed files in a ZIP archive</summary>
+    <description>Info-ZIP's purpose is to provide free, portable, high-quality versions of the Zip and UnZip compressor-archiver utilities that are compatible with the DOS-based PKZIP by PKWARE, Inc.</description>
+    <projectUrl>http://www.info-zip.org</projectUrl>
+    <tags>compression zip archive</tags>
+    <copyright>© 1997-2008 Info-Zip</copyright>    
+    <licenseUrl>http://www.info-zip.org/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+</package>
