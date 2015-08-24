@@ -3,7 +3,7 @@
 
 $packageName = 'qbs'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://download.qt.io/official_releases/qbs/1.4.1/qbs-windows-x86-1.4.1.zip'
+$url = 'https://download.qt.io/official_releases/qbs/1.4.2/qbs-windows-x86-1.4.2.zip'
 
 $packageArgs = @{
   packageName   = $packageName
