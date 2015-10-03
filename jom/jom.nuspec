@@ -4,7 +4,7 @@
   <metadata>
     <id>jom</id>
     <title>jom</title>
-    <version>1.0.16</version>
+    <version>1.1.0</version>
     <authors>Qt Project</authors>
     <owners>Jake Petroules</owners>
     <summary>jom - the parallel make tool for Windows</summary>
@@ -16,7 +16,11 @@ It basically adds the -j command line switch similar to GNU make.</description>
     <licenseUrl>http://doc.qt.io/qt-5/licensing.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://d3hp9ud7yvwzy0.cloudfront.net/wp-content/uploads/2015/02/Qt-logo-medium.png</iconUrl>
-    <releaseNotes>This is the changelog for jom 1.0.16, the parallel make tool.
+    <releaseNotes>This is the changelog for jom 1.1.0, the parallel make tool.
+
+Changes since jom 1.0.16
+- Restrict the number of parallel jobs in recursively called instances
+  similar to GNU make's jobserver (QTCREATORBUG-10846).
 
 Changes since jom 1.0.15
 - Fix occasional hang on exit (QTCREATORBUG-14600).
