@@ -4,7 +4,7 @@
   <metadata>
     <id>qbs</id>
     <title>Qt build suite</title>
-    <version>1.4.2</version>
+    <version>1.4.3</version>
     <authors>Qt Project</authors>
     <owners>Jake Petroules</owners>
     <summary>Build tool that helps simplify the build process for developing projects across multiple platforms.</summary>
