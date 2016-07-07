@@ -4,7 +4,7 @@
   <metadata>
     <id>qbs</id>
     <title>Qbs</title>
-    <version>1.5.1</version>
+    <version>1.5.2</version>
     <authors>Qt Project</authors>
     <owners>Jake Petroules</owners>
     <summary>Build tool that helps simplify the build process for developing projects across multiple platforms.</summary>
