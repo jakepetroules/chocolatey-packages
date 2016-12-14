@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>zlib</id>
+    <title>zlib</title>
+    <version>1.2.8</version>
+    <authors>Jean-loup Gailly, Mark Adler</authors>
+    <owners>Jake Petroules</owners>
+    <summary>A Massively Spiffy Yet Delicately Unobtrusive Compression Library</summary>
+    <description>A Massively Spiffy Yet Delicately Unobtrusive Compression Library</description>
+    <projectUrl>http://zlib.net</projectUrl>
+    <packageSourceUrl>https://github.com/jakepetroules/chocolatey-packages</packageSourceUrl>
+    <projectSourceUrl>http://zlib.net/zlib-1.2.8.tar.gz</projectSourceUrl>
+    <docsUrl>http://zlib.net/manual.html</docsUrl>
+    <mailingListUrl>http://zlib.net/mailman/listinfo/zlib-devel_madler.net</mailingListUrl>
+    <bugTrackerUrl>http://zlib.net/mailman/listinfo/zlib-devel_madler.net</bugTrackerUrl>
+    <tags>zlib compress compression</tags>
+    <copyright>© Jean-loup Gailly, Mark Adler</copyright>
+    <licenseUrl>http://zlib.net/zlib_license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+</package>
