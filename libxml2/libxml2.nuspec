@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>libxml2</id>
+    <title>libxml2</title>
+    <version>2.7.8</version>
+    <authors>Daniel Veillard, GNOME project</authors>
+    <owners>Jake Petroules</owners>
+    <summary>The XML C parser and toolkit of Gnome</summary>
+    <description>Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform), it is free software available under the MIT License. XML itself is a metalanguage to design markup languages, i.e. text language where semantic and structure are added to the content using extra "markup" information enclosed between angle brackets. HTML is the most well-known markup language. Though the library is written in C a variety of language bindings make it available in other environments.</description>
+    <projectUrl>http://xmlsoft.org</projectUrl>
+    <packageSourceUrl>https://github.com/jakepetroules/chocolatey-packages</packageSourceUrl>
+    <projectSourceUrl>https://git.gnome.org/browse/libxml2/</projectSourceUrl>
+    <docsUrl>http://xmlsoft.org/html/index.html</docsUrl>
+    <mailingListUrl>https://mail.gnome.org/archives/xml/</mailingListUrl>
+    <bugTrackerUrl>http://xmlsoft.org/bugs.html</bugTrackerUrl>
+    <tags>xml libxml libxml2</tags>
+    <copyright>© Daniel Veillard, GNOME project</copyright>
+    <licenseUrl>http://xmlsoft.org</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+        <dependency id="iconv"/>
+        <dependency id="zlib"/>
+    </dependencies>
+  </metadata>
+</package>
