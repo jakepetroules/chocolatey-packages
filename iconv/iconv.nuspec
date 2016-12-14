@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>iconv</id>
+    <title>iconv</title>
+    <version>1.9.2</version>
+    <authors>Free Software Foundation</authors>
+    <owners>Jake Petroules</owners>
+    <summary>GNU libiconv is a conversion library for text encodings</summary>
+    <description>GNU libiconv is a conversion library for text encodings</description>
+    <projectUrl>https://www.gnu.org/software/libiconv/</projectUrl>
+    <packageSourceUrl>https://github.com/jakepetroules/chocolatey-packages</packageSourceUrl>
+    <projectSourceUrl>http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.14.tar.gz</projectSourceUrl>
+    <docsUrl>https://www.gnu.org/software/libiconv/documentation/</docsUrl>
+    <tags>iconv</tags>
+    <copyright>© 1998, 2010 Free Software Foundation, Inc.</copyright>
+    <licenseUrl>https://www.gnu.org/software/libiconv/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+</package>
