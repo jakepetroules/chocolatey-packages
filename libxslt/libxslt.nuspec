@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>libxslt</id>
+    <title>libxslt</title>
+    <version>1.1.26</version>
+    <authors>Daniel Veillard, GNOME project</authors>
+    <owners>Jake Petroules</owners>
+    <summary>The XSLT C library for GNOME</summary>
+    <description>Libxslt is the XSLT C library developed for the GNOME project. XSLT itself is a an XML language to define transformation for XML. Libxslt is based on libxml2 the XML C library developed for the GNOME project. It also implements most of the EXSLT set of processor-portable extensions functions and some of Saxon's evaluate and expressions extensions.</description>
+    <projectUrl>http://xmlsoft.org/XSLT/</projectUrl>
+    <packageSourceUrl>https://github.com/jakepetroules/chocolatey-packages</packageSourceUrl>
+    <projectSourceUrl>https://git.gnome.org/browse/libxslt/</projectSourceUrl>
+    <docsUrl>http://xmlsoft.org/XSLT/docs.html</docsUrl>
+    <mailingListUrl>https://mail.gnome.org/archives/xslt/</mailingListUrl>
+    <bugTrackerUrl>http://xmlsoft.org/XSLT/bugs.html</bugTrackerUrl>
+    <tags>xml xsl xslt</tags>
+    <copyright>© Daniel Veillard, GNOME project</copyright>
+    <licenseUrl>http://xmlsoft.org/XSLT/intro.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+        <dependency id="libxml2"/>
+    </dependencies>
+  </metadata>
+</package>
