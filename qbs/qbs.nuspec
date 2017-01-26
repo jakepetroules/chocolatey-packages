@@ -4,7 +4,7 @@
   <metadata>
     <id>qbs</id>
     <title>Qbs</title>
-    <version>1.7.0</version>
+    <version>1.7.1</version>
     <authors>Qt Project</authors>
     <owners>Jake Petroules</owners>
     <summary>Build tool that helps simplify the build process for developing projects across multiple platforms.</summary>
@@ -20,7 +20,15 @@
     <licenseUrl>http://doc.qt.io/qt-5/licensing.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://d3hp9ud7yvwzy0.cloudfront.net/wp-content/uploads/2015/02/Qt-logo-medium.png</iconUrl>
-    <releaseNotes>qbs 1.7.0
+    <releaseNotes>qbs 1.7.1
+
+Important bug fixes:
+    * Fixed race condition in qmake build (QBS-1091)
+    * Qt Creator no longer leaves empty build directories
+      behind after cancelled project loading (QTCREATORBUG-17543)
+    * Fixed an exception crossing the API boundary
+    
+qbs 1.7.0
 
 Features:
     * Added a generator for Visual Studio projects.
