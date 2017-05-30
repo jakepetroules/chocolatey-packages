@@ -2,10 +2,19 @@
 
 Install-ChocolateyZipPackage `
     -PackageName 'qbs' `
-    -Url 'https://download.qt.io/official_releases/qbs/1.7.2/qbs-windows-x86-1.7.2.zip' `
+    -Url 'https://download.qt.io/official_releases/qbs/1.8.0/qbs-windows-x86-1.8.0.zip' `
     -UnzipLocation "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" `
-    -Url64bit 'https://download.qt.io/official_releases/qbs/1.7.2/qbs-windows-x86_64-1.7.2.zip' `
-    -Checksum 'fa7482f20c48bff02695ae9d8d4e208326c2e29e0e17ab7b3036e6c9820cb204958f90e9addc02fc9db966644fa84791372665f43e2c05e4434b5a62daf63108' `
+    -Url64bit 'https://download.qt.io/official_releases/qbs/1.8.0/qbs-windows-x86_64-1.8.0.zip' `
+    -Checksum 'a968f3128fe25cb38859b7cee7023102554ce2745b9626b563d30a9fc97abfe412fb4e38ae0eefcee3a19a9a11afe990ce6e8a4bec06a988353d29477d740bb9' `
     -ChecksumType 'sha512' `
-    -Checksum64 '692cc330279552be90874aa7764b62941536de1c172e26d82a6f20b204385fa1377f738478ff54f6b414d41c88f3017567a74025b8b34c248d252e5e85b06e32' `
+    -Checksum64 'a35168ea5264c332044b5e8ee59090a3bb4c45247b17254d07b18de5ae51ef4984cf574ec1d0833669f2e6a3fbfe2ca0facb8c20e9d3da780aeb7330974c4633' `
     -ChecksumType64 'sha512'
+
+# Workaround until the next release which includes https://codereview.qt-project.org/#/c/195815/
+If (Test-Path "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\qbs-windows-x86_64-1.8.0") {
+    Copy-Item "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\qbs-windows-x86_64-1.8.0\bin\*.dll" `
+        "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\qbs-windows-x86_64-1.8.0\libexec\qbs"
+} Else {
+    Copy-Item "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\qbs-windows-x86-1.8.0\bin\*.dll" `
+        "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\qbs-windows-x86-1.8.0\libexec\qbs"
+}
