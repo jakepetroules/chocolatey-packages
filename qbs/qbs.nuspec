@@ -4,9 +4,9 @@
   <metadata>
     <id>qbs</id>
     <title>Qbs</title>
-    <version>1.8.0</version>
+    <version>1.8.1</version>
     <authors>Qt Project</authors>
-    <owners>Jake Petroules</owners>
+    <owners>jakepetroules</owners>
     <summary>Build tool that helps simplify the build process for developing projects across multiple platforms.</summary>
     <description>Qbs is a tool that helps simplify the build process for developing projects across multiple platforms.</description>
     <projectUrl>https://wiki.qt.io/Qbs</projectUrl>
@@ -20,7 +20,22 @@
     <licenseUrl>http://doc.qt.io/qt-5/licensing.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://d3hp9ud7yvwzy0.cloudfront.net/wp-content/uploads/2015/02/Qt-logo-medium.png</iconUrl>
-    <releaseNotes>qbs 1.8.0
+    <releaseNotes>qbs 1.8.1
+
+Important bug fixes:
+    * Qbs-specific build errors are now correctly linked
+      in Qt Creator's issues pane (QBS-1151).
+    * Fixed automatic base profile assignment for
+      MSVC Qt installations (QBS-1141)
+    * Various QNX fixes (QBS-1136, QBS-1137, QBS-1138, QBS-1139, QBS-1143).
+
+Behavior changes:
+    * Users now get early error messages if they forget
+      the "modules", "products" or "projects" prefix
+      in command line property overrides such as
+      "modules.cpp.enableExceptions:false".
+
+qbs 1.8.0
 
 Features:
     * General:
